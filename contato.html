@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato - Alisson Rocha Tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaScreen.css">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
+	<link rel="icon" type="image/png" href="./img/icon.png">
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/validar.js"></script>
+</head>
+<body>
+	<header id="navigation" class="navigation">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="curriculo.html">Currículo</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="title-pg">
+		<ul class="caminho">
+			<li><a href="index.html">Home</a></li>
+			<li>></li>
+			<li>Contato</li>
+		</ul>
+	</section>
+
+	<section class="main">
+		<div class="grid-contato">
+			<div>
+				<h1>Contato</h1>
+				<h3>E-mail:</h3>
+				<p>alisson.f.rocha@gmail.com</p>
+				<h3>Telefone:</h3>
+				<p>WhatsApp: (43) 9 8821-0665</p>
+				<p>WhatsApp: (43) 9 8858-3443</p>
+				<h3>Redes Sociais:</h3>
+				<a href="#" target="_blank"><img class="social-img" src="img/rs/facebook.svg" alt="Link para o facebook" title=""></a>
+				<a href="#" target="_blank"><img class="social-img" src="img/rs/instagram.svg" alt="Link para o facebook" title=""></a>
+				<a href="#" target="_blank"><img class="social-img" src="img/rs/youtube.svg" alt="Link para o facebook" title=""></a>
+				<a href="#" target="_blank"><img class="social-img" src="img/rs/linkedin.svg" alt="Link para o facebook" title=""></a>
+			</div>
+
+			<div>
+				<form accept="#" method="POST" id="formulario">
+					<label>Nome:</label>
+					<input type="text" name="nome" placeholder="Digite seu Nome aqui..." class="campo-dados" id="nome">
+					<label>E-mail:</label>
+					<input type="email" name="email" placeholder="Digite seu E-mail aqui..." class="campo-dados" id="email">
+					<label>Assunto:</label>
+					<input type="text" name="ass" placeholder="Digite o Assunto aqui..." class="campo-dados" id="ass">
+					<label>Mensagem:</label>
+					<textarea name="msg" placeholder="Digite sua Mensagem aqui..." class="campo-msg" id="msg"></textarea>
+					<button name="" class="btn" onclick="return ValidarFormulario()">ENVIAR</button>
+				</form>
+			</div>
+		</div>
+		
+
+		<a class="back-link" href="index.html">&larr; Voltar ao início</a>
+	</section>
+
+	<footer class="end-pg">
+		<span>Copyright © - Todos os direitos reservados 2022.</span>
+		<div class="redes-sociais">
+			<a href="" target="_blank">
+				<img src="./img/rs/facebook.svg" alt="" title="" class="icon-rs">
+			</a>
+			<a href="" target="_blank">
+				<img src="./img/rs/instagram.svg" alt="" title="" class="icon-rs">
+			</a>
+			<a href="" target="_blank">
+				<img src="./img/rs/youtube.svg" alt="" title="" class="icon-rs">
+			</a>			
+			<a href="" target="_blank">
+				<img src="./img/rs/linkedin.svg" alt="" title="" class="icon-rs">
+			</a>
+		</div>
+	</footer>		
+</body>
+</html>
